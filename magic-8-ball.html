@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Magic 8 Ball</title>
+		<link href="global-stylesheets/global-style.css" rel="stylesheet">
+		<link href="magic-8-ball/magic-8-ball.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="magic-8-ball/magic-8-ball.js"></script>
+		<script type="text/javascript" src="global-scripts/header-functions.js"></script>
+		<script>
+		    $(document).ready(function() {
+		    	infoButtonHover();
+		    	headerInfo();
+		    	hpiTemplate();
+		    });
+		</script>
+
+	</head>
+	<body onload="firstFade()">
+		<div class="wrapper">			
+			
+			<div class="subheader">
+				<div class="outerCircle" id="outerCircle">
+					<div class="innerCircle">
+						<div class="core">
+							<p class="coreText" id="coreText"><br/>Shake me.</p>
+						</div>
+					</div>
+				</div>
+
+				<form>
+						<input type="button" onclick="shake()" value="shake" id="btnShake">
+				</form>
+			</div> <!-- .subheader -->
+		</div> <!-- .wrapper -->
+	</body>
+</html>

@@ -1,0 +1,72 @@
+.subheader {
+	text-align: center;
+	margin-top: 25px;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+}
+
+.outerCircle {
+	width: 450px;
+	height: 450px;
+	background: black;
+	color: white;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+.outerCircle{
+    margin: 0 auto!important;   
+}
+
+.innerCircle {
+	width: 159px;
+	height: 159px;
+	margin-top: 147px;
+	border-radius: 50%;
+	background: lightgray;
+	display: inline-block;
+
+}
+
+.core {
+	position: relative;
+	z-index: 2;
+	width: 0px;
+	height: 0px;
+	border-top: 110px solid purple;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 0px solid transparent;
+	margin: auto;
+	margin-top: 46px;
+	opacity: 0;
+}
+
+
+#coreText {
+	width: 50px;
+	position: absolute;
+	color: white;
+	top: -107px;
+	left: -25px;
+	margin: auto;
+	font-size: 13px;
+}
+
+#btnShake {
+	width: 200px;
+	height: 100px;
+	width: 79px;
+	height: 29px;
+	font-size: 17px;
+	font-family: helvetica, sans-serif;
+	border-radius: 9px;
+	visibility: hidden;
+}
+
+form {
+	margin-top: 20px;
+}
