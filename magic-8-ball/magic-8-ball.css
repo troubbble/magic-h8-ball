@@ -26,7 +26,7 @@ p {
 	height: 159px;
 	margin-top: 147px;
 	border-radius: 50%;
-	background: lightgray;
+	background: DarkRed;
 	display: inline-block;
 
 }
@@ -36,7 +36,7 @@ p {
 	z-index: 2;
 	width: 0px;
 	height: 0px;
-	border-top: 110px solid purple;
+	border-top: 110px solid FireBrick;
 	border-left: 70px solid transparent;
 	border-right: 70px solid transparent;
 	border-bottom: 0px solid transparent;
@@ -49,10 +49,11 @@ p {
 #coreText {
 	width: 50px;
 	position: absolute;
-	color: white;
+	color: black;
 	top: -107px;
 	left: -25px;
 	margin: auto;
+	font-family: MV Boli;
 	font-size: 13px;
 }
 
@@ -62,7 +63,7 @@ p {
 	width: 79px;
 	height: 29px;
 	font-size: 17px;
-	font-family: helvetica, sans-serif;
+	font-family: showcard gothic;
 	border-radius: 9px;
 	visibility: hidden;
 }
