@@ -7,6 +7,12 @@ p {
 	font-family: helvetica, sans-serif;
 }
 
+body {
+	font-size: 12px;
+}
+/*added this body tag thingie whatever to try and play with ems and rems
+but went back to px so this is just being overridden elsewhere now!*/
+
 .outerCircle {
 	width: 450px;
 	height: 450px;
@@ -24,7 +30,8 @@ p {
 .innerCircle {
 	width: 159px;
 	height: 159px;
-	margin-top: 147px;
+	margin-top: 100px;
+	/*reduced this to move circle up*/
 	border-radius: 50%;
 	background: DarkRed;
 	display: inline-block;
@@ -50,7 +57,9 @@ p {
 	width: 50px;
 	position: absolute;
 	color: black;
-	top: -107px;
+	top: -125px;
+	/* decreased to -125 from maybe -110 or something to move this up. what is this based on?
+	what is this -125 pixels from?*/
 	left: -25px;
 	margin: auto;
 	font-family: MV Boli;

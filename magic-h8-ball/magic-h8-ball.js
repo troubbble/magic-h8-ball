@@ -46,11 +46,11 @@ function numberGenerator() {
 	}
 	// 7
 	else if (number < 0.875) {
-		document.getElementById('coreText').innerHTML="Not fucking likely.";
+		document.getElementById('coreText').innerHTML="<br/>Not fucking likely.";
 	}
 	// 8
 	else {
-		document.getElementById('coreText').innerHTML="Come again? I wasn't listening.";
+		document.getElementById('coreText').innerHTML="<br/>Come again? I wasn't listening.";
 	}
 }
 
